@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "stock-chart-denoiser"
+version = "0.1.0"
+description = ""
+authors = ["Seungjae Park <astro.psj@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+lightning = "^2.2.0.post0"
+matplotlib = "^3.8.3"
+numpy = "^1.26.4"
+scikit-learn = "^1.4.1.post1"
+torch = "^2.2.1"
+yfinance = "^0.2.37"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
